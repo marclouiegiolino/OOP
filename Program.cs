@@ -1,16 +1,22 @@
 ﻿using System;
 
-namespace METHOD
+namespace PARAMETER
 {
-    class Program
+    public class MyInfo
     {
-
-
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            MyName.Name();
-            MyAge.Age();
-            MyAddress.Address();
+            Info.InfoMain("Marc Louiegi B. Olino", 30, "Male", "Single", "Blk. 6 Upper casoy St.", "Baptist", "Filipino");
+            Info.InfoMain("Mary Joanne B. Olino", 27, "Female", "Single", "Blk. 6 Upper casoy St.", "Baptist", "Filipino");
+            Info.InfoMain("Lucelle B. Olino", 25, "Female", "Single", "Blk. 6 Upper casoy St.", "Baptist", "Filipino");
+            Info.InfoMain("Lucellyne B. Olino", 24, "Female", "Single", "Blk. 6 Upper casoy St.", "Baptist", "Filipino");
+            Info.InfoMain("Mary Louise B. Olino", 17, "Male", "Single", "Blk. 6 Upper casoy St.", "Baptist", "Filipino");
+         
+
+
+
+
+
         }
     }
 }
